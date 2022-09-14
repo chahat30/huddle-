@@ -1,0 +1,186 @@
+.logo-image
+{
+    height: 2rem;
+    width: 10rem;
+}
+
+.navbar
+{
+    padding-bottom: 3rem ;
+}
+
+.nav-item
+{
+    padding: 0 2rem;
+}
+
+.nav-link
+{
+    font-weight: 700;
+}
+
+.container-fluid
+{
+    padding: 3% 7% 7%;
+}
+
+#title
+{
+    background-image:url(images/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+}
+
+.title-button
+{
+    background-color: rgb(245, 84, 189);
+    color: white;
+    border-radius: 5rem;
+    padding: 1% 6%;
+    font-size: 1rem;
+}
+
+.title-photo
+{
+    width: 95%;
+}
+
+h1
+{
+    padding: 4rem 0 2rem;
+}
+
+.title-p
+{
+    padding-bottom: 1.5rem;
+    font-weight: 500;
+}
+
+.feature-image
+{
+    width: 70%;
+}
+
+.feature-card
+{
+    padding: 4% 9%;
+}
+
+.features
+{
+    padding-bottom: 9%;
+}
+
+#features
+{
+    padding: 8% 8%;
+    position: relative;
+}
+
+.feature-heading
+{
+    padding: 16% 0 2%;
+}
+
+.img-col
+{
+    text-align:  center;
+}
+
+#footer
+{
+    background-color: hsl(192, 100%, 9%);
+    padding: 10% 10% 2%;
+}
+
+.footer-p
+{
+    color: white;
+    padding: 0 2% 0 2%;
+    text-decoration: none;
+}
+
+.footer-col
+{
+    padding: 0 0 0 10%;
+}
+
+.copyright-p
+{
+    text-align:right ;
+    font-size: small;
+    font-weight: 300;
+}
+
+.cta
+{
+    position:absolute;
+    bottom: -6%;
+    z-index:10 ;
+    background-color: white;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h2
+{
+    padding: 0 0 1.5rem;
+}
+
+.cta-button
+{
+    padding: 3% 12%;
+}
+
+@media (max-width:992px)
+{
+    .cta
+    {
+        bottom: -4.2%;
+    }
+
+    #footer
+    {
+        padding-top: 15%;
+    }
+
+    #title
+    {
+        text-align: center;
+    }
+    #features
+    {
+        text-align: center;
+    }
+    .title-pg
+    {
+        padding-bottom: 5%;
+    }
+    .footer-col
+    {
+        padding-left: 2%;
+    }
+    .footer-center
+    {
+        text-align: center;
+    }
+}
+
+@media (max-width:700px)
+{
+    .cta
+    {
+        bottom: -4.4%;
+    }
+}
+
+@media (max-width:600px)
+{
+    #footer
+    {
+        padding-top: 20%;
+    }
+   
+}
